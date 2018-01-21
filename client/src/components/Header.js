@@ -16,7 +16,7 @@ export default class Header extends Component {
                 <Menu.Item as={NavLink} to='/'name='Contacts' />
                 <Menu.Item as={NavLink} to='/add'name='Add Contact' />
                 <Menu.Menu position='right'>
-                  <Menu.Item name='By Ruie Dela Pena'/>
+                  <Menu.Item name='By Vincent Dela Pena'/>
                </Menu.Menu>
               </Menu>
            </Segment>
