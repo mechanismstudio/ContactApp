@@ -26,7 +26,7 @@ class Content extends Component {
       return this.props.users.map(user => {
          return ( 
          <Card key={user._id}>
-         <Image src={user.thumbnail} />
+         <Image className="w-100" src={user.thumbnail} />
          <Card.Content>
          <Card.Header>
             {user.name}
